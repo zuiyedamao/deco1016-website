@@ -1,0 +1,62 @@
+#container{
+    width: 100%;
+    padding: 5% 0;
+}
+
+.title{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+    padding: 1% 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.main{
+    overflow: hidden;
+    margin-top: 3%;
+}
+
+.main .left{
+    float: left;
+    width: 20%;
+    padding: 1%;
+    border: 1px solid #ccc;
+}
+
+.left .left-top{
+    font-weight: bold;
+    padding: 1% 0;
+    border-bottom: 3px solid #ccc;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
+.left .row{
+    line-height: 50px;
+}
+
+.main .right{
+    float: right;
+    width: 78%;
+}
+
+.main .right li{
+    float: left;
+    width: 30%;
+    margin-right: 5%;
+}
+
+.main .right li a>img{
+    display: block;
+    width: 100%;
+}
+
+.main .right li .name{
+    text-align: center;
+    margin: 3% auto;
+}
+
+.main .right li .price{
+    text-align: center;
+}

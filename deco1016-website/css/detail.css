@@ -1,0 +1,173 @@
+#container{
+    width: 100%;
+    padding: 5% 0;
+}
+
+.content{
+    overflow: hidden;
+}
+
+.content .left{
+    float: left;
+    width: 40%;
+}
+
+.content .left>img{
+    display: block;
+    width: 100%;
+}
+
+.content .right{
+    float: right;
+    width: 55%;
+}
+
+.right .name{
+    font-weight: 300;
+    letter-spacing: 1px ;
+    font-size: 25px;
+    margin: 2% 0;
+}
+
+.right .line{
+    width: 100%;
+    height: 1px;
+    background: #ccc;
+    margin: 2% 0;
+}
+
+.right .price{
+    color: #666;
+    margin: 2% 0;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.right .row{
+    width: 100%;
+    overflow: hidden;
+    margin: 2% 0;
+}
+
+.right .row>input{
+    float: left;
+    width: 50px;
+    height: 40px;
+    margin-left: 20px;
+}
+
+.right .row>p{
+    line-height: 40px;
+}
+
+.right .button{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    margin: 4% 0;
+    background-color: #666;
+}
+
+.right .button a{
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.right .tag{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    margin: 2% 0;
+}
+
+.right p{
+    line-height: 30px;
+}
+
+
+.message{
+    float: right;
+    width: 55%;
+}
+
+.message .message-top{
+    width: 100%;
+    margin-bottom: 3%;
+    background: #eee;
+}
+
+.message-top .title{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    padding-left: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #666;
+}
+
+.message-top .one , .message-top .two{
+    float: left;
+    width: 50%;
+    position: relative;
+    padding: 10% 3%;
+}
+
+.message-top .one .sign{
+    width: 80%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background: #666;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.message-top .two >p{
+    line-height: 30px;
+}
+
+.message .info{
+    width: 100%;
+    padding: 3%;
+    background: #eee;
+}
+
+.message .info .name{
+    line-height: 40px;
+    margin: 2% 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.message .info>input{
+    width: 100%;
+    height: 40px;
+    margin: 2% 0;
+}
+
+.message .info .button{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    margin: 4% 0;
+    background-color: #666;
+}
+
+.message .info .button a{
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}

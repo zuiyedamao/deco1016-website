@@ -1,0 +1,87 @@
+#container{
+    width: 100%;
+    padding: 5% 0;
+}
+
+.title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.box{
+    width: 48%;
+    height: 500px;
+    float: left;
+    padding: 2%;
+    border: 1px solid #ccc;
+}
+
+.tips{
+    margin: 2% 0;
+    line-height: 30px;
+    text-align: center;
+}
+
+.box>input{
+    width: 100%;
+    height: 50px;
+    margin: 2% 0;
+}
+
+.box .button{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    margin: 2% 0;
+    background: #666;
+}
+
+.box .button a{
+    color: #fff;
+    font-weight: bold;
+}
+
+
+.sign{
+    width: 40%;
+    margin: 0 auto;
+}
+
+h2{
+    font-size: 25px;
+}
+
+.sign>input{
+    width: 100%;
+    height: 50px;
+    margin: 2% 0;
+    padding: 0 2%;
+}
+
+.sign .button{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    margin: 2% 0;
+    background: #666;
+}
+
+.sign .button a{
+    color: #fff;
+    font-weight: bold;
+}
+
+.sign .accept{
+    width: 100%;
+    margin: 2% 0;
+    line-height: 40px;
+    background: #eee;
+    padding: 1%;
+}
+.sign .accept>input{
+    width: 15px;
+    height: 15px;
+}

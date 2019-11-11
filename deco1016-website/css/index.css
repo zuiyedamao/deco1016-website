@@ -1,0 +1,50 @@
+#container{
+    width: 100%;
+    padding: 5% 0;
+}
+
+#container .image{
+    width: 70%;
+    margin: 0 auto;
+}
+
+#container .image>img{
+    display: block;
+    width: 100%;
+}
+
+.goods-box{
+    width: 70%;
+    margin: 5% auto;
+    overflow: hidden;
+}
+
+.goods-box li{
+    float: left;
+    width: 30%;
+    margin-right: 5%;
+}
+
+.goods-box li a>img{
+    display: block;
+    width: 100%;
+}
+
+.goods-box li .name{
+    text-align: center;
+    font-weight: 500;
+    font-size: 25px;
+    margin-top: 3%;
+}
+
+.goods-box li .tags{
+    margin: 3% auto;
+    text-align: center;
+}
+
+.goods-box li>a{
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+}
