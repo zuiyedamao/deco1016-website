@@ -1,6 +1,7 @@
 #container{
     width: 100%;
     padding: 5% 0;
+    position: relative;
 }
 
 .content{
@@ -170,4 +171,89 @@
     color: #fff;
     font-size: 16px;
     font-weight: bold;
+}
+
+.main {
+    padding: 3%;
+    background: #eee;
+    width: 100%;
+    height: 520px;
+    margin-bottom: 20px;
+}
+.main span {
+    color: rgb(151,151,151);
+    font-size: 30px;
+    margin-right: 20px;
+}
+.jiantou {
+    position: absolute;
+    border: 20px solid #e7e7e7;
+    top: 35%;
+    right: 14px;
+    height: 60px;
+    width: 60px;
+    border-left: none;
+    border-bottom: none;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+.content {
+    width: 90%;
+    margin: auto;
+    background: white;
+}
+.content form {
+    padding-left: 10px;
+}
+.content form p img {
+    vertical-align: middle;
+}
+.content form p {
+    height: 50px;
+    line-height: 50px;
+}
+.fo input {
+    width: 90%;
+    height: 35px;
+    padding-left: 10px;
+}
+.content form select {
+    height: 35px;
+    width: 90px;
+    color: #a1a1a1;
+}
+.box {
+    width: 90%;
+    overflow: hidden;
+}
+.box select {
+    float: left;
+    margin-right: 4px;
+}
+.box input {
+    float: right;
+    width: 115px;
+    margin-left: 30px;
+    height: 35px;
+}
+.what a{
+    float: right;
+    margin-right: 30px;
+    text-decoration: underline;
+    color: #a1a1a1;
+    cursor: pointer;
+}
+.cen {
+    margin: auto;
+    margin-bottom: 10px;
+}
+.cen {
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    background: rgb(102,102,102);
+}
+.cent {
+    display: flex;
 }
